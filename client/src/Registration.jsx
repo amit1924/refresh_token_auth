@@ -21,7 +21,7 @@ const Registration = () => {
     try {
       if (res.status === 200) {
         console.log("Register successfully");
-        navigate("/login");
+        navigate("/");
       } else {
         console.log("Error in registering user");
       }
@@ -106,7 +106,7 @@ const Registration = () => {
                         <div className="d-flex justify-content-center">
                           <p className="">Already have an account</p>
                           <br /> <br /> <br />
-                          <a href="/login" className="">
+                          <a href="/" className="">
                             Login
                           </a>
                         </div>
