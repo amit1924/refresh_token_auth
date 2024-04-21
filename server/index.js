@@ -30,7 +30,7 @@ dotenv.config();
 await connectDB();
 
 // Serve static files from the 'public' directory
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static("public"));
 
 //Register Route
 app.post("/register", async (req, res) => {
