@@ -114,6 +114,10 @@ app.get("/dashboard", verifyUser, (req, res) => {
   return res.json({ valid: true, message: "Authorized" });
 });
 
+app.get("/refresh", (req, res) => {
+  res.send("Refresh Token");
+});
+
 app.listen(PORT, () => {
   console.log(`server listening on port ${PORT}`);
 });
