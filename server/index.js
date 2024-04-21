@@ -20,6 +20,7 @@ app.use(
       "http://localhost:5173",
       "https://refresh-token-auth-client-a4ip1tlvh-amit1924s-projects.vercel.app",
       "https://refresh-token-auth-client.vercel.app",
+      "https://refresh-token-auth-server.vercel.app",
     ],
     credentials: true,
   })
